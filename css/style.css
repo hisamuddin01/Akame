@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+/*=== custom veriables ====*/
+:root {
+    --FONT-COLOR : rgb(19, 7, 7);
+    --FONT-COLOR--WHITE: rgb(255, 255, 255);
+
+    --BG-COLOR : #F2F2F2;
+    --BG-HERO-SECTION:#faf5dd;
+    --FF: 'Poppins', sans-serif;
+    --FONT-WEIGHT-LIGHT: 300;
+    --FONT-WEIGHT-REGULAR: 400;
+    --FONT-WEIGHT-SEMI-BOLD: 700;
+    --FONT-WEIGHT-BOLD: 700;
+
+    --border-color: rgba(0, 0, 0, 0.1);
+    --border : 1px solid var(--border-color);
+}
+/*=== global style ====*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
