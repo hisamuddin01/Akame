@@ -28,10 +28,10 @@ body{
     font-family: var(--FF);
     font-weight: var(--FONT-WEIGHT-LIGHT);
 }
-img{
+/* img{
     display: block;
     width: 100%;
-}
+} */
 .container {
     max-width: 1100px;
     width: calc(100% - 2rem);
