@@ -28,10 +28,11 @@ body{
     font-family: var(--FF);
     font-weight: var(--FONT-WEIGHT-LIGHT);
 }
-/* img{
+img{
     display: block;
     width: 100%;
-} */
+    height: 100%;
+}
 .container {
     max-width: 1100px;
     width: calc(100% - 2rem);
@@ -205,5 +206,50 @@ header {
 @media (max-width: 768px) {
     .nav {
         width: 60%;
+    }
+}
+
+/*=== Hero ====*/
+.hero {
+    background-color: var(--BG-HERO-SECTION);
+}
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+.hero__text {
+    flex: 1;
+}
+.hero__img {
+    flex: 1;
+    height: 560px;
+}
+.hero__wrapper .hero__text .hero__title {
+    font-size: 3.7rem;
+    text-transform: capitalize;
+    font-weight: var(--FONT-WEIGHT-REGULAR);
+    line-height: .99;
+    margin-bottom: 1.5rem;
+}
+.hero__wrapper .hero__text .hero__desc {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+@media (max-width:992px) {
+    .hero__wrapper .hero__text .hero__title {
+        font-size: 3rem;
+    }
+}
+@media (max-width:768px) {
+    .hero__wrapper {
+        padding: 5rem 0;
+    }
+    .hero__wrapper .hero__text .hero__title {
+        font-size: 3rem;
+    }
+    .hero__wrapper .hero__img {
+      display: none;
     }
 }
