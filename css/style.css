@@ -583,3 +583,64 @@ h3 {
         flex: 100%;
     }
 }
+/* CTA */
+.cta {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(240, 255, 255);
+    background-image: url(../imges/freestocks-rNPfyRYqjHY-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+}
+/* FOOTER */
+.footer .wrapper {
+    align-items: initial;
+    flex-wrap: wrap;
+}
+.footer .logo {
+    margin-bottom: 1.5rem;
+}
+.footer  p:nth-child(2) {
+    margin-bottom: 1.5rem;
+}
+
+.footer ul  {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.footer ul li {
+    display: inline-block;
+    margin-right: 1rem; 
+}
+.footer ul li a {
+    text-decoration: none;
+}
+.footer ul li a i{
+    background-color: #d7c458;
+    color: rebeccapurple;
+    font-size: 1.3rem;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+@media (max-width:768px) {
+    .footer .wrapper > * {
+        flex: 100%;
+    }
+}
+.cta__desc {
+    width: 50%;
+}
+
+.cta .btn {
+    margin: 2rem 1rem 0 0;
+}
+@media (max-width:768px) {
+    .cta__desc {
+        width: 90%;
+    }
+}
